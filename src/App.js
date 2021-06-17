@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
 
-const imgBaseUrl = 'https://static.intercomassets.com/assets/oauth'
+const imgBaseUrl = ''
 
 export default class App extends Component {
   render() {
     return (
       <div className='app'>
         <div className='app-contents'>
-          <h1>Intercom + Netlify Functions</h1>
+          <h1>Netsuite + Netlify Functions</h1>
           <p>Login with Intercom OAuth</p>
           <div className='button-wrapper'>
             <a href="/.netlify/functions/auth">
@@ -20,7 +20,7 @@ export default class App extends Component {
             </a>
           </div>
 
-          <a href="https://github.com/DavidWells/intercom-netlify-oauth" className='github-link'>
+          <a href="https://github.com/ithardscape/netsuite-netlify-oauth" className='github-link'>
             View the source on Github
           </a>
         </div>
